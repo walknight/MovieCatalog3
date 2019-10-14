@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+
+    <ImageView
+        android:id="@+id/img_poster_detail"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginBottom="431dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/img_thumbnail_detail"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@id/img_poster_detail"
+        android:layout_margin="10dp"
+        android:layout_marginBottom="141dp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_poster_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        android:scaleType="fitXY"/>
+
+    <TextView
+        android:id="@+id/txt_year_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="@string/lbl_year"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_thumbnail_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toEndOf="@+id/img_thumbnail_detail"
+        app:layout_constraintTop_toTopOf="@+id/img_thumbnail_detail"
+        app:layout_constraintVertical_bias="0.282" />
+
+    <TextView
+        android:id="@+id/txt_title_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/lbl_title"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_thumbnail_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toEndOf="@+id/img_thumbnail_detail"
+        app:layout_constraintTop_toBottomOf="@+id/txt_year_detail"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txt_rating_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@color/colorAccent"
+        android:padding="5dp"
+        android:text="@string/lbl_ratings"
+        android:textColor="#ffffff"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/img_thumbnail_detail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toEndOf="@+id/img_thumbnail_detail"
+        app:layout_constraintTop_toTopOf="@+id/img_thumbnail_detail"
+        app:layout_constraintVertical_bias="0.89" />
+
+    <TextView
+        android:id="@+id/lbl_sinopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_sinopsis"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_poster_detail" />
+
+    <TextView
+        android:id="@+id/txt_sinopsis_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.022"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_sinopsis" />
+
+
+</android.support.constraint.ConstraintLayout>

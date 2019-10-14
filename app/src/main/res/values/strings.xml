@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Movie Catalog</string>
+    <string name="icon_settings">Change Language</string>
+    <string name="lbl_duration">0h 0m</string>
+    <string name="lbl_ratings">0.0</string>
+    <string name="lbl_sinopsis">Synopsis</string>
+    <string name="lbl_tab_movie">Movie</string>
+    <string name="lbl_tab_tv_show">Tv Show</string>
+    <string name="lbl_title">Title</string>
+    <string name="lbl_genre">Genre</string>
+    <string name="lbl_year">2019</string>
+    <string name="dialog_title">Choose Language</string>
+    <string name="hello_movie_fragment">Hello movie fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- URL API Configuration -->
+    <string name="URL_MOVIE">https://api.themoviedb.org/3/discover/movie?api_key=</string>
+    <string name="URL_TV">https://api.themoviedb.org/3/discover/tv?api_key=</string>
+    <string name="path_thumbnail">https://image.tmdb.org/t/p/w185/</string>
+    <string name="path_poster">https://image.tmdb.org/t/p/w780/</string>
+
+</resources>
